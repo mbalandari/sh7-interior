@@ -20,6 +20,7 @@ body {
     color: #333333;
     margin: 0 auto 18.75rem auto;
     width: 56.25rem;
+    transition: background-color 1s ease;
 }
 
 header {
@@ -59,10 +60,4 @@ section {
 section img {
     width: 56.25rem;
     height: 37.5rem;
-}
-
-.progress {
-    position: fixed;
-    top: 0;
-    left: 0;
 }
