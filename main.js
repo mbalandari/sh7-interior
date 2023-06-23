@@ -23,6 +23,13 @@ $(document).on('scroll', function () {
     else {
         $('body').css('background-color', '#cdccc7')
     }
-})
 
-$('.bar').css('width', 70 + '%')
+    $('.bar').css('width', 70 + '%')
+
+    var documentHeight = $(document).height()
+    var windowHeight = $(window).height()
+    var diff = documentHeight - windowHeight
+    var percentage = 100 * pixlesFromTop / diff
+
+    console.log(percentage)
+})
