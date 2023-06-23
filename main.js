@@ -24,3 +24,5 @@ $(document).on('scroll', function () {
         $('body').css('background-color', '#cdccc7')
     }
 })
+
+$('.bar').css('width', 70 + '%')
